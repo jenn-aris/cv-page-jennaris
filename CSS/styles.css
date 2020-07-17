@@ -1,0 +1,205 @@
+@media print {
+    #nav-bar {
+     display:none;
+    }
+  }
+  html, body {
+    background: url("https://static.wixstatic.com/media/dc2266_eb2dff0132ba43939bffc9caacfae90e~mv2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+  #welcome-section h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  #welcome-section {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    font-size: 25px;
+    padding-top: 10%;
+  }
+  #welcome-section p {
+    font-family: 'raleway', sans-serif;
+    padding: 10px;
+  }
+  #profil-pic {
+    border-radius: 50%;
+    width: 20%;
+    border: solid 5px white;
+  }
+  #navbar {
+    font-family: 'Raleway', sans-serif;
+    top: 0px;
+    width: 100%;
+    position: fixed;
+    background: #2F4858;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+  }
+  #navbar a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+    padding: 10px 30px;
+  }
+  .nav-link {
+    text-decoration: none;
+    color: green;
+  }
+  #experiences p {
+    padding: 25px;
+  }
+  #gitimg {
+    height: 60px;
+    width: auto;
+  }
+  #linkedin_img {
+    height: 60px;
+    width: auto;
+  }
+  #competences img {
+    height: 150px;
+    width: auto;
+  }
+  #formations img {
+    height: 200px;
+    width: auto;
+  }
+  #formations {
+    text-align: center;
+  }
+  #formations ul {
+    list-style: none;
+    display: inline-block;
+    text-align: initial
+  }
+  #content {
+   font-family: 'Raleway', sans-serif;
+   line-height: 1.25em;
+   background: rgb(255, 255, 255, 0.80);
+   border-radius: 5px;
+   padding: 70px 50px;
+   margin: -50px 15px 15px 15px;
+   font-size: 20px;
+  }
+  #content p {
+    padding: 20px;
+  }
+  #content #experiences {
+    text-align: justify;
+    padding-bottom: 30px;
+  }
+  #content h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+  }
+  #content h3 {
+    background: rgb(101, 103, 122, 0.30);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #content section {
+    text-align: center;
+  }
+  #content #certifications {
+    display: flex;
+  }
+  #opquast img {
+    height: 200px;
+    width: auto; 
+  }
+  #freecodecamp img {
+    height: 250px;
+    width: auto;
+  }
+  .myButton {
+	background:linear-gradient(to bottom, #7b736f 5%, #7b736f 100%);
+	background-color:#7b736f;
+	border-radius:21px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:14px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+  position: fixed;
+  right: 10px;
+  top: 55px;  
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #7b736f 5%, #7b736f 100%);
+	background-color:#7b736f;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+ #my-footer {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5em;
+  font-size: 25px;
+  padding: 20px;
+   text-shadow: 2px 2px 5px black;
+   width: 100%;
+   background: #039590; 
+   color : white;
+   display: flex;
+   justify-content: space-evenly;
+  }
+  #info-rapide {
+    text-align: justify;
+  }
+  #contact-section {
+    padding: 15px;
+    text-align: center;
+  }
+  #langues {
+    display: flex;
+    justify-content: center;
+  }
+  #langues p {
+    margin-top: -20px;
+  }
+ .flag {
+  width: 80px;
+  height: auto;
+  padding: 10px;
+  }
+  #credit {
+  font-family: 'Raleway', sans-serif;
+   font-size: 15px;
+   text-align: center;
+   width: 100%;
+   background: #2F4858; 
+   color : white;
+   padding: 10px;
+  }
+  .projectimg {
+   height: 300px;
+   width: auto;
+  }
+  .project-previews {
+    color: white;
+    background: #202D36;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 5px;
+  }
+  #projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
