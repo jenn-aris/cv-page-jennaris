@@ -112,8 +112,9 @@
   #content section {
     text-align: center;
   }
-  #content #certifications {
-    display: flex;
+  #content #certifications p {
+    color: #6c7f8e;
+    
   }
   #opquast img {
     height: 200px;
@@ -142,10 +143,6 @@
 .myButton:hover {
 	background:linear-gradient(to bottom, #7b736f 5%, #7b736f 100%);
 	background-color:#7b736f;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
 }
  #my-footer {
   font-family: 'Raleway', sans-serif;
@@ -202,4 +199,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+  #content .link-img {
+    width: 25px;
+    height: auto;
+    margin-right: 5px;
   }
