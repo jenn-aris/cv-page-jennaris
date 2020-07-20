@@ -3,216 +3,263 @@
      display:none;
     }
   }
-  html, body {
-    background: url("https://static.wixstatic.com/media/dc2266_eb2dff0132ba43939bffc9caacfae90e~mv2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-  }
-  #welcome-section h1 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    font-size: 40px;
-  }
-  #welcome-section {
-    color: white;
-    text-align: center;
-    text-shadow: 2px 2px 5px black;
-    font-size: 25px;
-    padding-top: 10%;
-  }
-  #welcome-section p {
-    font-family: 'raleway', sans-serif;
-    padding: 10px;
-  }
-  #profil-pic {
-    border-radius: 50%;
-    width: 20%;
-    border: solid 5px white;
-  }
-  #navbar {
-    font-family: 'Raleway', sans-serif;
-    top: 0px;
-    width: 100%;
-    position: fixed;
-    background: #2F4858;
-    text-align: center;
-    padding: 20px 20px 20px 20px;
-  }
-  #navbar a {
-    color: white;
-    text-decoration: none;
-    list-style: none;
-    position: relative;
-    cursor: pointer;
-    padding: 10px 30px;
-  }
-  .nav-link {
-    text-decoration: none;
-    color: green;
-  }
-  #experiences p {
-    padding: 25px;
-  }
-  #gitimg {
-    height: 60px;
-    width: auto;
-  }
-  #linkedin_img {
-    height: 60px;
-    width: auto;
-  }
-  #competences img {
-    height: 150px;
-    width: auto;
-  }
-  #formations img {
-    height: 200px;
-    width: auto;
-  }
-  #formations {
-    text-align: center;
-  }
-  #formations ul {
-    list-style: none;
-    display: inline-block;
-    text-align: initial
-  }
-  #content {
-   font-family: 'Raleway', sans-serif;
-   line-height: 1.25em;
-   background: rgb(255, 255, 255, 0.80);
-   border-radius: 5px;
-   padding: 70px 50px;
-   margin: -50px 15px 15px 15px;
-   font-size: 20px;
-  }
-  #content p {
-    padding: 20px;
-  }
-  #content #experiences {
-    text-align: justify;
-    padding-bottom: 30px;
-  }
-  #content h2 {
-    font-size: 40px;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 20px;
-  }
-  #content h3 {
-    background: rgb(101, 103, 122, 0.30);
-    margin: 10px;
-    padding: 5px;
-    border-radius: 5px;
-    font-size: 20px;
-    font-weight: bold;
-  }
-  #content section {
-    text-align: center;
-  }
-  #content #certifications p {
-    color: #6c7f8e;
-    
-  }
-  #opquast img {
-    height: 200px;
-    width: auto; 
-  }
-  #freecodecamp img {
-    height: 250px;
-    width: auto;
-  }
-  .myButton {
-	background:linear-gradient(to bottom, #7b736f 5%, #7b736f 100%);
-	background-color:#7b736f;
-	border-radius:21px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:17px;
-	padding:14px 31px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #000000;
-  position: fixed;
-  right: 10px;
-  top: 55px;  
+
+#profil-pic {
+  width: 35%;
+  border-radius: 50%;
+  border: solid 5px white;
+  margin-bottom: -10%;
+  z-index: 100;
 }
-.myButton:hover {
-	background:linear-gradient(to bottom, #7b736f 5%, #7b736f 100%);
-	background-color:#7b736f;
+body {
+  background: url("https://static.wixstatic.com/media/dc2266_eb2dff0132ba43939bffc9caacfae90e~mv2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  margin: 0;
+  min-width: 100vh;
+  display: flex;
+  flex-direction: column;
 }
- #my-footer {
+#container {
+  background: rgb(255, 255, 255, 0.80);
+  border-radius: 5px;
+  padding: 5%;
+  margin: 5% 5% 0% 5%;
+  font-size: 20px;
   font-family: 'Raleway', sans-serif;
-  line-height: 1.5em;
-  font-size: 25px;
+  line-height: 1.25em;
+}
+#container p {
+  text-align: justify;
   padding: 20px;
-   text-shadow: 2px 2px 5px black;
-   width: 100%;
-   background: #039590; 
-   color : white;
-   display: flex;
-   justify-content: space-evenly;
+}
+header {
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+  font-size: 25px;
+  height: 50%;
+  z-index: 100;
+}
+header h1 {
+  margin-top: 20vh;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+header p {
+  font-family: 'raleway', sans-serif;
+  padding: 10px;
+}
+img {
+  width: 80%;
+  height: auto;
+}
+iframe {
+  width: 100%;
+}
+#navbar {
+  top: 0px;
+  width: 100%;
+  height: 5vh;
+  background: #2F4858;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  Z-index: 101;
   }
-  #info-rapide {
-    text-align: justify;
-  }
-  #info-rapide h2{
-    font-size: 40px;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 20px;
-  }
-  #contact-section {
-    padding: 15px;
-    text-align: center;
-  }
-  #langues {
-    display: flex;
-    justify-content: center;
-  }
-  #langues p {
-    margin-top: -20px;
-  }
- .flag {
+
+#navbar .nav-link {
+  text-decoration: none;
+  padding: 1vh;
+  height: 100%; 
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+}
+#experiences p {
+  padding: 25px;
+}
+#gitimg {
+  height: 60px;
+  width: auto;
+}
+#linkedin_img {
+  height: 60px;
+  width: auto;
+}
+#competences img {
+  height: 5em;
+  width: auto;
+}
+.flag {
   width: 80px;
   height: auto;
   padding: 10px;
-  }
-  #credit {
-  font-family: 'Raleway', sans-serif;
-   font-size: 15px;
+}
+#formations ul {
+  list-style: none;
+  display: inline-block;
+  text-align: initial
+}
+#formations img {
+  height: 200px;
+  width: auto;
+}
+#formations {
+  text-align: center;
+}
+#formations h2 {
+  text-align: left;
+}
+ #container #experiences {
+   text-align: justify;
+   padding-bottom: 30px;
+ }
+ #container h2 {
+   font-size: 40px;
+   text-transform: uppercase;
+   font-weight: bold;
+   padding: 20px;
+ }
+ #container h3 {
+   background: rgb(101, 103, 122, 0.30);
+   margin: 10px;
+   padding: 5px;
+   border-radius: 5px;
+   font-size: 20px;
+   font-weight: bold;
+ }
+ #content section {
    text-align: center;
-   width: 100%;
-   background: #2F4858; 
-   color : white;
-   padding: 10px;
-  }
-  .projectimg {
-   height: 300px;
-   width: auto;
-  }
-  .project-previews {
-    color: white;
-    background: #202D36;
-    padding: 5px;
-    margin: 20px;
-    border-radius: 5px;
-  }
-  #projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  #content .link-img {
-    width: 25px;
-    height: auto;
-    margin-right: 5px;
-  }
-  a.anchor {
-    display: block;
+ }
+ #container #certifications p {
+   color: #6c7f8e;  
+   text-align: center;
+ }
+ #opquast img {
+   height: 200px;
+   width: auto; 
+ }
+ #logos {
+
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+ .myButton {
+ background:linear-gradient(to bottom, #7b736f 5%, #7b736f 100%);
+ background-color:#7b736f;
+ border-radius:21px;
+ display:inline-block;
+ cursor:pointer;
+ color:#ffffff;
+ font-family:Arial;
+ font-size:17px;
+ padding:14px 20px;
+ text-decoration:none;
+ text-shadow:0px 1px 0px #000000;
+ position: fixed;
+ right: 10px;
+ top: 5vh;
+ z-index: 102; 
+}
+#my-footer {
+ font-family: 'Raleway', sans-serif;
+ line-height: 1.5em;
+ font-size: 25px;
+ padding: 20px;
+  text-shadow: 2px 2px 5px black;
+  width: 100%;
+  background: #039590; 
+  color : white;
+  display: flex;
+  justify-content: space-evenly;
+ }
+ #info-rapide {
+   text-align: justify;
+ }
+ #info-rapide h2{
+   font-size: 40px;
+   text-transform: uppercase;
+   font-weight: bold;
+   padding: 20px;
+ }
+ #contact-section {
+   padding: 15px;
+   text-align: center;
+ }
+ #langues {
+   display: flex;
+   justify-content: center;
+ }
+ #langues p {
+   margin-top: -20px;
+ }
+.flag {
+ width: 80px;
+ height: auto;
+ padding: 10px;
+ }
+ #credit {
+ font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  width: 100%;
+  background: #2F4858; 
+  color : white;
+  padding: 10px;
+ }
+#projects {
+  width: 100%;
+  display: inline-block;
+}
+article {
     position: relative;
-    top: -50px;
+    display: flex;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 5px;;
+}
+#container #projects {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+}
+#container article {
+  background: #202D36;
+  margin: 10px;
+
+}
+article img {
+  width: 100%;
+  border: 5px solid #202D36;
+}
+#projects p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-top: -5%;
+  line-height: 1.2;
+  color: white;
+  font-weight: bold;  
+  text-align: center;
+}
+ a.anchor {
+   display: block;
+   position: relative;
+   top: -50px;
+}
+#container .link-img {
+  width: 25px;
+  height: auto;
+  margin-right: 5px;
 }
