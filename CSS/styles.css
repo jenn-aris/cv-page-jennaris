@@ -322,7 +322,6 @@ article {
 }
 #container #projects {
   display: flex;
-  flex-wrap: wrap;
   width: 100%;
   align-items: flex-start;
   justify-content: center;
