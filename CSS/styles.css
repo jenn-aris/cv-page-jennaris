@@ -310,6 +310,8 @@ iframe {
 #projects {
   width: 100%;
   display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
 }
 article {
     position: relative;
