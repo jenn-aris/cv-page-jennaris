@@ -144,6 +144,7 @@ header h1 {
 header p {
   font-family: 'raleway', sans-serif;
   padding: 10px;
+  font-size: 25px;;
 }
 img {
   width: 80%;
