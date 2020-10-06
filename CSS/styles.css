@@ -309,39 +309,35 @@ iframe {
   padding: 10px;
  }
 #projects {
-  display: flex;
-  flex-wrap: wrap;
+  width: 100%;
 }
 article {
     position: relative;
     display: flex;
-    width: 250px;
+    width: 90%;
     padding: 10px;
     border: 1px solid black;
     margin: 10px;
     border-radius: 5px;;
 }
 #container #projects {
-  display: flex;
   width: 100%;
-  align-items: flex-start;
-  justify-content: center;
 }
 #container article {
-  background: #202D36;
+  background: #ffffff;
   margin: 10px;
 
 }
 article img {
   width: 100%;
-  border: 5px solid #202D36;
+  border: 5px solid white;
 }
 #projects p {
   font-size: 14px;
   margin-bottom: 20px;
   margin-top: -5%;
   line-height: 1.2;
-  color: white;
+  color: black;
   font-weight: bold;  
   text-align: center;
 }
@@ -354,4 +350,29 @@ article img {
   width: 25px;
   height: auto;
   margin-right: 5px;
+}
+
+#container .devProject {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.devProject article{
+  position: relative;
+  width: 250px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.devProject p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-top: -5%;
+  line-height: 1.2;
+  color: black;
+  font-weight: bold;  
+  text-align: center;
 }
