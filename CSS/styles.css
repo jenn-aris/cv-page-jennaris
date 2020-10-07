@@ -242,8 +242,13 @@ iframe {
    text-align: center;
  }
  #opquast img {
-   height: 200px;
-   width: auto; 
+  width: 25%;
+  height: auto;
+ }
+
+ #freecodecamp img {
+ width: 50%;
+ height: auto;
  }
  #logos {
    display: flex;
